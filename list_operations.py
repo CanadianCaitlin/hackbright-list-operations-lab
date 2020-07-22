@@ -182,8 +182,9 @@ def delete_third_and_seventh(input_list):
     True
 
     """
-
-    pass
+    input_list.pop(2)
+    input_list.pop(5)
+    return None
 
 
 def delete_middle(input_list):
